@@ -26,5 +26,6 @@ if __name__ == '__main__':
     # 启动线程
     t1.start()
     t2.start()
-    print(t1.name)
+    print("t1线程的名字", t1.name)
+    print("t2线程的名字", t2.name)
     print("主线程end")
